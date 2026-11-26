@@ -1,0 +1,36 @@
+{
+  "start_time": "2026-11-26T01:00:00+00:00",
+  "end_time": "2026-11-26T01:02:00+00:00",
+  "total_events": 3,
+  "severity_counts": {
+    "error": 2,
+    "warning": 1
+  },
+  "findings": [
+    {
+      "identifier": "auth.authentication_failure",
+      "category": "Authentication",
+      "severity": "warning",
+      "title": "Authentication failure",
+      "description": "Repeated or notable authentication failures.",
+      "occurrence_count": 2,
+      "first_seen": "2026-11-26T01:00:00+00:00",
+      "last_seen": "2026-11-26T01:01:00+00:00",
+      "evidence": [
+        {
+          "timestamp": "2026-11-26T01:00:00+00:00",
+          "hostname": "workstation",
+          "service": "sshd",
+          "pid": 1452,
+          "priority": 3,
+          "message": "Failed password for invalid user admin",
+          "unit": "sshd.service"
+        }
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "ai_summary": null,
+  "recommendations": [],
+  "analysis_duration": 0.001
+}

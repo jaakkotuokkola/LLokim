@@ -1,0 +1,3 @@
+{"__REALTIME_TIMESTAMP":"1700000000000000","_HOSTNAME":"workstation","SYSLOG_IDENTIFIER":"sshd","_PID":"1452","PRIORITY":"4","MESSAGE":"Failed password for invalid user admin","_SYSTEMD_UNIT":"sshd.service"}
+{"__REALTIME_TIMESTAMP":"1700000060000000","_HOSTNAME":"workstation","SYSLOG_IDENTIFIER":"nginx","_PID":"2201","PRIORITY":"3","MESSAGE":"Failed to bind to address","_SYSTEMD_UNIT":"nginx.service"}
+{"timestamp":"2023-11-15T10:15:00+00:00","hostname":"workstation","service":"kernel","pid":42,"priority":"warning","message":"Temperature above threshold"}

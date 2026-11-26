@@ -1,0 +1,4 @@
+{"__REALTIME_TIMESTAMP":"invalid","SYSLOG_IDENTIFIER":"systemd","PRIORITY":"3",
+this is not json
+{"timestamp":null,"hostname":null,"service":null,"pid":null,"priority":null,"message":null}
+
