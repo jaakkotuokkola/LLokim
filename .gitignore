@@ -6,3 +6,5 @@ dist/
 build/
 *.egg-info/
 PROJECT_SPEC.md
+CONTRIBUTING.md
+SECURITY.md
